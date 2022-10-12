@@ -1,0 +1,111 @@
+:root{
+    --red:hsl(0, 100%, 74%);
+    --purpule:hsl(248, 32%, 49%);
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    background-color: var(--red);
+}
+#background-img{
+    width:100%;
+    z-index: -1;
+    position: fixed;
+}
+#hol{
+    height:100vh;
+    width: 100vw;
+    display:flex;
+}
+#content{
+    height:auto;
+    display:flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#one{
+    width:40%;
+}
+#two{
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+#title{
+    font-size :50px;
+    color:white;
+}
+.text{
+    color: white;
+}
+#try{
+    width: 90%;
+    height: 50px;
+    background-color: var(--purpule);
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-radius: 6px;
+    border-color:white;
+}
+#try-title,#try-p{
+    display: inline;
+    color: white;
+}
+#try-p{
+    font-size: 16px;
+    margin-left: 8px;
+}
+form{
+    background-color: white;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px 0;
+    border-radius: 5px;
+    gap:20px;
+    padding-bottom: 10px;
+}
+input{
+    display: block;
+    width:90%;
+    height: 40px;
+    font-size: 15px;
+    padding:0px 0 0 10px;
+    font-weight:bolder;
+}
+#sub{
+    width: 93%;
+    height: 40px;
+    background-color: hsl(154, 59%, 51%);
+    border-width: 0;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 0px
+}
+#terms{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding-top:0px;
+}
+#terms1{
+    display: inline;
+    font-size:10px;
+    margin-top: 13px;
+}
+#terms2{
+    display: inline;
+    font-size: 12px;
+    font-weight: bolder;
+    margin-left: 5px;
+    color: var(--red);
+}
